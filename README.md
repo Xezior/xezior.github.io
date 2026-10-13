@@ -1,2 +1,0 @@
-# xezior.github.io
-site
