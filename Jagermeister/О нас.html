@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #1a1a1a; 
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        .bg-side {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            width: calc((100vw - 800px) / 2); 
+            min-width: 100px;
+            background-image: url("images/mellstroy.gif"); 
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: 1;
+        }
+
+        .bg-left {
+            left: 0;
+        }
+
+        .bg-right {
+            right: 0;
+            transform: scaleX(-1);
+        }
+
+        .main-content {
+            position: relative;
+            z-index: 2;
+            text-align: center; 
+            color: #ffffff; 
+            background-color: rgba(0, 0, 0, 0.85); 
+            padding: 25px; 
+            margin: 20px auto; 
+            max-width: 600px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-side bg-left"></div>
+    <div class="bg-side bg-right"></div>
+    <div style="text-align: center; color: #ffffff; background-color: rgba(0, 0, 0, 0.75); padding: 25px; margin: 20px auto; max-width: 800px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+    <p>
+        <b>О нас</b> |
+        <a href="Jagermeister.html" >Главная</a> 
+    </p>
+    <h1>НУЖНА СРОЧНАЯ ПОДДЕРЖКА ДЛЯ ЖЕЛУДКА</h1>
+    <h2>АЛЬТУШКИ ВЛАДИМИР ГААААААЗ ЗНАКОМИТСЯ</h2>
+    <p>+88005553535</p>
+    <img src="images/победа W.jpg" width="800"  height="600" >
+        <img src="images/oi.jpg" width="400"  height="200" >
+    <img src="images/musordrop-musor-drop.gif" width="400"  height="200" >
+</div>
+</body>
+</html>
